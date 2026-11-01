@@ -1,0 +1,9 @@
+contract_id,supplier_name,category,stage,annual_value_eur,renewal_date,sla_target_pct,sla_actual_pct,on_time_delivery_pct,quality_pass_pct,open_major_issues
+C-1001,Synthetic Supplier A,Network equipment,active,24000,2026-11-30,99.5,99.4,96,98,0
+C-1002,Synthetic Supplier B,Software support,active,18000,2027-03-31,99,99.2,97,99,0
+C-1003,Synthetic Supplier C,Cloud hosting,renewal_review,42000,2026-12-15,99.9,99.4,92,94,3
+C-1004,Synthetic Supplier D,Telecom,active,15000,2027-05-30,98.5,97.9,89,95,2
+C-1005,Synthetic Supplier E,Security services,tender,30000,,,,,,0
+C-1006,Synthetic Supplier F,Consulting,evaluation,9500,,,,,,0
+C-1007,Synthetic Supplier G,Support,active,12000,2026-09-30,97,95,85,90,4
+C-1008,Synthetic Supplier H,Maintenance,planning,8000,,,,,,0
