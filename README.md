@@ -1,3 +1,5 @@
+![IT Procurement & Vendor Performance Management banner](docs/images/it-procurement-vendor-management-banner.svg)
+
 # IT Procurement & Vendor Performance Management
 
 A runnable, synthetic-data proof of concept for procurement lifecycle visibility, supplier scorecards, and contract-renewal review.
