@@ -1,7 +1,6 @@
-# LinkedIn article draft: Managing supplier performance needs more than a scorecard
+# IT Procurement & Vendor Performance Management
 
-**Author:** Shahid Al Parvez Malik  
-**Status:** Draft; not published
+**Author:** Shahid Al Parvez Malik
 
 In my IT operations work, supplier performance has rarely been a single number. Service context matters: the same SLA result can have a different operational impact depending on the service and contract.
 
