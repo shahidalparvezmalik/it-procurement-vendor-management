@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1672" height="941" viewBox="0 0 1672 941" role="img" aria-labelledby="title desc">
+  <title id="title">IT Procurement and Vendor Performance Management</title>
+  <desc id="desc">Synthetic-data proof of concept showing procurement lifecycle stages, supplier performance, and human-reviewed renewal flags.</desc>
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#071729"/>
+      <stop offset="0.58" stop-color="#12345a"/>
+      <stop offset="1" stop-color="#0d243b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#142b45"/>
+      <stop offset="1" stop-color="#1b3b5f"/>
+    </linearGradient>
+    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <path d="M34 0H0V34" fill="none" stroke="#b9d4ef" stroke-opacity=".07" stroke-width="1"/>
+    </pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="10" stdDeviation="14" flood-color="#06101d" flood-opacity=".23"/>
+    </filter>
+  </defs>
+  <rect width="1672" height="941" fill="#f3f6fa"/>
+  <rect width="1672" height="560" fill="url(#hero)"/>
+  <rect width="1672" height="560" fill="url(#grid)"/>
+  <path d="M0 490C300 430 490 555 800 475s560-110 872-12v97H0Z" fill="#153a5e" opacity=".55"/>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="116" y="141" fill="#69c9ed" font-size="23" font-weight="700" letter-spacing="3">PORTFOLIO PROOF OF CONCEPT</text>
+    <text x="112" y="232" fill="#ffffff" font-size="61" font-weight="750">IT Procurement &amp;</text>
+    <text x="112" y="306" fill="#ffffff" font-size="61" font-weight="750">Vendor Performance</text>
+    <text x="116" y="357" fill="#d9e9f7" font-size="25" font-weight="500">Lifecycle visibility  |  Supplier scorecards  |  Renewal review</text>
+    <text x="116" y="410" fill="#c5d5e4" font-size="20">A transparent, human-reviewed demo using synthetic contract data.</text>
+
+    <g filter="url(#shadow)">
+      <rect x="1005" y="64" width="550" height="378" rx="24" fill="#ffffff"/>
+      <rect x="1005" y="64" width="550" height="64" rx="24" fill="#f7fafc"/>
+      <path d="M1005 128h550" stroke="#e4eaf0" stroke-width="2"/>
+      <circle cx="1044" cy="96" r="8" fill="#22a9d6"/>
+      <text x="1068" y="104" fill="#18314b" font-size="19" font-weight="700">Supplier review pack</text>
+      <text x="1496" y="103" text-anchor="end" fill="#6d8092" font-size="14">SYNTHETIC</text>
+      <rect x="1037" y="151" width="145" height="76" rx="13" fill="#eaf5fb"/>
+      <rect x="1198" y="151" width="145" height="76" rx="13" fill="#eef7f2"/>
+      <rect x="1359" y="151" width="164" height="76" rx="13" fill="#fff5e7"/>
+      <text x="1054" y="179" fill="#62778b" font-size="14">LIFECYCLE</text>
+      <text x="1054" y="207" fill="#1c597d" font-size="18" font-weight="700">Stage view</text>
+      <text x="1215" y="179" fill="#62778b" font-size="14">PERFORMANCE</text>
+      <text x="1215" y="207" fill="#28714e" font-size="18" font-weight="700">SLA · delivery</text>
+      <text x="1376" y="179" fill="#62778b" font-size="14">CONTRACTS</text>
+      <text x="1376" y="207" fill="#9a5a13" font-size="18" font-weight="700">Renewal flags</text>
+
+      <text x="1040" y="269" fill="#31465a" font-size="16" font-weight="700">Review inputs</text>
+      <text x="1040" y="305" fill="#506579" font-size="15">SLA actual vs target</text>
+      <rect x="1270" y="291" width="230" height="12" rx="6" fill="#e7edf2"/>
+      <rect x="1270" y="291" width="172" height="12" rx="6" fill="#2ba8d4"/>
+      <text x="1040" y="342" fill="#506579" font-size="15">Delivery and quality</text>
+      <rect x="1270" y="328" width="230" height="12" rx="6" fill="#e7edf2"/>
+      <rect x="1270" y="328" width="145" height="12" rx="6" fill="#41a977"/>
+      <text x="1040" y="379" fill="#506579" font-size="15">Renewal timing</text>
+      <rect x="1270" y="365" width="230" height="12" rx="6" fill="#e7edf2"/>
+      <rect x="1270" y="365" width="95" height="12" rx="6" fill="#e5a33e"/>
+      <text x="1040" y="416" fill="#718397" font-size="13">Illustrative indicators only · human decision required</text>
+    </g>
+  </g>
+
+  <rect x="0" y="560" width="1672" height="381" fill="#f3f6fa"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="105" y="610" fill="#20384f" font-size="18" font-weight="700" letter-spacing="1.5">PROCUREMENT LIFECYCLE</text>
+    <path d="M174 681H1496" stroke="#b7c8d7" stroke-width="4"/>
+    <g text-anchor="middle" font-weight="700">
+      <circle cx="174" cy="681" r="27" fill="#208bc0"/><text x="174" y="689" fill="#fff" font-size="19">1</text>
+      <circle cx="438" cy="681" r="27" fill="#1b9b83"/><text x="438" y="689" fill="#fff" font-size="19">2</text>
+      <circle cx="702" cy="681" r="27" fill="#6f61c5"/><text x="702" y="689" fill="#fff" font-size="19">3</text>
+      <circle cx="966" cy="681" r="27" fill="#bd7b2a"/><text x="966" y="689" fill="#fff" font-size="19">4</text>
+      <circle cx="1230" cy="681" r="27" fill="#248b9b"/><text x="1230" y="689" fill="#fff" font-size="19">5</text>
+      <circle cx="1494" cy="681" r="27" fill="#d16b5e"/><text x="1494" y="689" fill="#fff" font-size="19">6</text>
+      <text x="174" y="729" fill="#294257" font-size="16">Plan</text>
+      <text x="438" y="729" fill="#294257" font-size="16">Source</text>
+      <text x="702" y="729" fill="#294257" font-size="16">Evaluate</text>
+      <text x="966" y="729" fill="#294257" font-size="16">Award</text>
+      <text x="1230" y="729" fill="#294257" font-size="16">Monitor</text>
+      <text x="1494" y="729" fill="#294257" font-size="16">Renewal review</text>
+    </g>
+
+    <g filter="url(#shadow)">
+      <rect x="92" y="767" width="350" height="107" rx="15" fill="#fff"/>
+      <rect x="466" y="767" width="350" height="107" rx="15" fill="#fff"/>
+      <rect x="840" y="767" width="350" height="107" rx="15" fill="#fff"/>
+      <rect x="1214" y="767" width="366" height="107" rx="15" fill="#fff"/>
+      <circle cx="131" cy="820" r="16" fill="#e5f3fa"/><path d="M124 820h14m-7-7v14" stroke="#208bc0" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="505" cy="820" r="16" fill="#e7f5ef"/><path d="m498 820 5 5 10-11" fill="none" stroke="#208458" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="879" cy="820" r="16" fill="#fff2df"/><path d="M879 810v11m0 5v1" stroke="#bd7b2a" stroke-width="3" stroke-linecap="round"/>
+      <circle cx="1253" cy="820" r="16" fill="#f5e9e8"/><path d="M1245 821h16m-8-8v16" stroke="#c96255" stroke-width="3" stroke-linecap="round"/>
+      <text x="160" y="812" fill="#244058" font-size="17" font-weight="700">Lifecycle visibility</text>
+      <text x="160" y="839" fill="#60758a" font-size="14">See stage and ownership context.</text>
+      <text x="534" y="812" fill="#244058" font-size="17" font-weight="700">Supplier scorecards</text>
+      <text x="534" y="839" fill="#60758a" font-size="14">Keep SLA, delivery, and quality visible.</text>
+      <text x="908" y="812" fill="#244058" font-size="17" font-weight="700">Renewal review</text>
+      <text x="908" y="839" fill="#60758a" font-size="14">Flag timing and performance for review.</text>
+      <text x="1282" y="812" fill="#244058" font-size="17" font-weight="700">Management reporting</text>
+      <text x="1282" y="839" fill="#60758a" font-size="14">Synthetic, transparent, review-only.</text>
+    </g>
+  </g>
+  <rect x="0" y="902" width="1672" height="39" fill="#0b1a2a"/>
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" fill="#d8e5f0" font-size="14">
+    <text x="96" y="927">SYNTHETIC DATA</text><circle cx="239" cy="920" r="2.5" fill="#64c2de"/>
+    <text x="263" y="927">RULES-BASED DEMO</text><circle cx="434" cy="920" r="2.5" fill="#64c2de"/>
+    <text x="458" y="927">HUMAN REVIEW REQUIRED</text><circle cx="657" cy="920" r="2.5" fill="#64c2de"/>
+    <text x="682" y="927">NO LIVE PROCUREMENT ACTIONS</text>
+    <text x="1576" y="927" text-anchor="end" fill="#98aec2">PORTFOLIO POC</text>
+  </g>
+</svg>
