@@ -1,0 +1,26 @@
+name: tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test-and-demo:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12", "3.13"]
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run unit tests
+        run: python -m unittest discover -v
+      - name: Run synthetic demo
+        run: python -m procurement_poc.cli --input data/contracts.csv --output-dir "$RUNNER_TEMP/procurement-reports" --as-of 2026-10-26
+      - name: Verify review-only summary
+        run: python -c "import json, os; p=os.path.join(os.environ['RUNNER_TEMP'], 'procurement-reports', 'management_summary.json'); d=json.load(open(p, encoding='utf-8')); assert d['contracts_assessed'] == 8; assert d['actions_executed'] == 0; assert d['human_review_required'] == 8"
