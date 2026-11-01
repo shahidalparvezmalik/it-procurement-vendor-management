@@ -1,5 +1,3 @@
-![IT Procurement & Vendor Performance Management banner](docs/images/it-procurement-vendor-management-banner.svg)
-
 # IT Procurement & Vendor Performance Management
 
 A runnable, synthetic-data proof of concept for procurement lifecycle visibility, supplier scorecards, and contract-renewal review.
@@ -106,7 +104,7 @@ The GitHub Actions test workflow is at `.github/workflows/tests.yml` (Python 3.1
 
 ## LinkedIn article
 
-[`docs/LINKEDIN_ARTICLE.md`](docs/LINKEDIN_ARTICLE.md) is an unpublished draft. The repository includes separate feed, group, and share-blurb drafts; none have been published.
+[IT Procurement & Vendor Performance Management](https://www.linkedin.com/pulse/procurement-vendor-performance-management-shahid-al-parvez-malik-0uddc/) was published on LinkedIn on 1 November 2026. The article source copy is in [`docs/LINKEDIN_ARTICLE.md`](docs/LINKEDIN_ARTICLE.md); editing the source does not change the published article.
 
 ## Disclaimer
 
